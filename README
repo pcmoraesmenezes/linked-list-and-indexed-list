@@ -1,0 +1,40 @@
+# List Operations in C++
+
+This repository contains a simple C++ program that demonstrates basic operations on a list. The list operations include inserting elements, removing elements, and printing the current state of the list. The program provides a menu-driven interface for the user to interact with the list.
+
+## Contents
+
+- [list_operations.cpp](list_operations.cpp): The C++ source code file containing the implementation of list operations.
+- [README.md](README.md): This file, providing an overview of the repository.
+
+## How to Use
+
+1. **Compile the Code:**
+   - Make sure you have a C++ compiler installed on your system.
+   - Compile the `list_operations.cpp` file using the following command:
+
+     ```bash
+     g++ list_operations.cpp -o list_operations
+     ```
+
+2. **Run the Program:**
+   - Execute the compiled program:
+
+     ```bash
+     ./list_operations
+     ```
+
+3. **Interact with the Menu:**
+   - Follow the on-screen instructions to view, insert, remove, or exit the list.
+
+## Features
+
+- **Insertion:** Adds elements to the list, with a check for maximum list size.
+- **Removal:** Removes a specified element from the list.
+- **Viewing:** Displays the current elements of the list.
+- **Menu-Driven:** User-friendly menu for easy interaction.
+
+## Notes
+
+- The list is implemented as an array-based structure with a maximum size defined by `MAX_SIZE`.
+- The program utilizes a menu-driven approach to facilitate user interaction.
